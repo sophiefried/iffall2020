@@ -1,0 +1,23 @@
+html{font-family: 'Crimson Text', serif;
+font-size: 15pt;}
+body{margin: 10%;}
+
+
+h1{font-size: 25pt;
+    text-align: center;}
+h2{line-height: 1.4;
+text-align: center; }
+small{font-size: .7em;
+color: grey;
+font-family: Arial, Helvetica, sans-serif;}
+h3{text-indent: -1rem;}
+.bold{font-weight: bold;}
+.italic{font-style: italic;}
+.wide{letter-spacing: .3em;}
+.tight{-.06em}
+.underline{text-decoration: underline;}
+.line{text-decoration: line-through;}
+.over{text-decoration: overline;}
+.upper{ text-transform: uppercase;}
+.lower{text-transform: lowercase;}
+.cap{text-transform: capitalize;}
