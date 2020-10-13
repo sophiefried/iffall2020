@@ -5,9 +5,9 @@ p
 .see-all
     {font-size: .8em;
     text-transform: uppercase;}
-.selected
-    { {font-weight: bold;
-        color: black;}}
+li.selected a
+    {font-weight: bold;
+        color: black;}
 h1
     {font-size: 2.5rem;
     font-weight: lighter;}
@@ -29,5 +29,11 @@ h1
 element.selected
     {font-weight: bold;
     color: black;}
-li#game-of-thrones.section::after 
+section.seasons ul li:last-child::after {
+        content: "*";}
+section.synopsis::before {
+            color: #999;
+            content: "* Final Season";
+            font-size: 0.7rem;}
+
  
