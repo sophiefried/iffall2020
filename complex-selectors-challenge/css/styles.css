@@ -1,0 +1,33 @@
+header
+    {margin-bottom: 3rem;}
+p 
+    {line-height: 1.6;}
+.see-all
+    {font-size: .8em;
+    text-transform: uppercase;}
+.selected
+    { {font-weight: bold;
+        color: black;}}
+h1
+    {font-size: 2.5rem;
+    font-weight: lighter;}
+ h2
+    { text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1rem;}
+.cast img
+    {width: 100%;}
+.cast li
+    {width: 25%;
+    font-size: .8rem;}
+.cast li div:first-of-type{font-weight: bold ;}
+.cast li div:last-of-type{font-style: italic; ;}
+.shows h1
+    {border-top: black;
+    border-top: 1pt;
+    border-top: solid;}
+element.selected
+    {font-weight: bold;
+    color: black;}
+li#game-of-thrones.section::after 
+ 
