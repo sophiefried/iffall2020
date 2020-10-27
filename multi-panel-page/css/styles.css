@@ -1,0 +1,108 @@
+body
+    {font-family: 'Archivo Narrow', sans-serif;}
+header
+    {text-align: center;
+    color: purple;
+    padding-top: 100px;
+    height: 330px;
+    background-image: url("http://2.bp.blogspot.com/-1RCdFX-Mkqw/UzgpifINdvI/AAAAAAAAdB8/QxuWDLqGcUw/s1600/Pink_polka_paper.jpg"); }
+.column-container
+    {width:960px ;
+    margin: auto;
+    padding-top: 20px;}
+h1
+    {font-size: 80px;
+    margin-bottom: 0;}
+h3
+        {text-align: center;}
+section
+        {padding-top: 30px;}
+h2{padding-top: 0px;
+    margin-top: 0px;
+    font-size: 30px;}
+h3
+    {font-size: 40px;
+    margin-bottom: 33px;}
+p 
+    {font-size: 18px;}
+.first 
+    {height: 733px;
+    background-color: pink;
+    color:white;}
+.big_image 
+    {width: 400px;
+    height: 300px;
+    margin-left: 2.63rem;
+    margin-bottom: 2rem;
+    object-fit: cover;
+    float: right;}
+.second 
+    {height: 660px;
+    background-color: paleturquoise;
+color: white;}
+h4
+    {font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    text-align: center;}
+.grid {
+    padding: 0;
+    font-size: 0;}
+ul {
+    list-style-type: disc;
+    display: block;
+    padding-inline-start: 40px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;}
+.grid li 
+    {display: inline-block;
+    width: 50%;
+    margin-bottom: 25px;}
+.pic-grid {
+    margin-right: 12px;
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    float: left;}
+.left 
+    {object-position: 50% 80%;}
+.right 
+    {object-position: 50% 30%;}
+.picture-title 
+    {font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.015rem;
+    line-height: 2.0rem;}
+.picture-caption
+    {font-weight: 600;
+    margin-right: 2rem;
+    font-size: 18px;
+    line-height: 1.6rem;
+    letter-spacing: 0.02rem;}
+.third
+    {height: 380px;
+    margin-bottom: 0;
+    background-color: yellowgreen;
+    color: white;}
+.lasttext
+    {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    font-size: 25px;
+    width: 700px;
+    letter-spacing: .25px;}
+footer
+    {padding-top: 15px;
+    margin-top: 0;
+    height: 100px;
+    background-color: skyblue;
+    color: white;}
+.footerwords
+    {margin-left: 120px;
+    font-size: 20px;
+    letter-spacing: -.25px;}
+
