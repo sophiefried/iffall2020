@@ -1,0 +1,34 @@
+body
+    {width: 90%;
+    max-width:800px;
+    margin-left: auto;
+    margin-right: auto;}
+@media (min-width: 640px)
+    {html{background-color: #eaf6ff;}}
+@media (max-width: 500px)
+        {h1 {font-size: 1.5rem;}}
+@media (min-width: 640px)
+        {h1 {font-size: 2.5rem;}}
+aside
+        {width: 170px;
+        margin: 10px;}
+ul 
+        {display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding-left: 0;}
+ #fixed-size-grid-items li 
+        {font-size: .8rem;}
+#stretchable-grid-items li
+        {width: 100%;}
+@media (min-width: 480px)
+        {#stretchable-grid-items li {width: 50%;}}
+@media (min-width: 640px)
+    {#stretchable-grid-items li {width: 25%;}}
+#stretchable-grid-items aside
+            {margin: 10%;}
+#stretchable-grid-items ul
+        {margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;}
