@@ -1,0 +1,66 @@
+html
+    {margin-left: auto; 
+    margin-right: auto;
+    width: 90%;
+    max-width: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    background-color: whitesmoke;
+line-height: 1.8rem;
+color: slategray;}
+.cupcake 
+        {display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        padding-top: 03%;
+    padding-bottom: 05%;}
+header 
+    {padding-top: 10%;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 0;
+    color: rgb(10, 27, 58);
+font-weight: normal;}
+h3
+{font-size: 16px;
+line-height: .6rem;
+color: rgb(10, 27, 58);
+font-weight: normal;}
+h4{text-align: center;
+font-size: .8rem;
+color:  rgb(10, 27, 58);
+font-weight: normal;}
+body
+    {width: 90%;
+    max-width:800px;
+    min-width: 400px;
+    margin: auto;
+    display: block;
+    list-style: none;}
+.bodytext
+        {padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;}
+ div
+        {display: block;}
+@media (min-width: 640px)
+        {.bodytext div {
+            width: 50%;}}
+
+
+ul.grocery {list-style-type: square;
+
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: .8rem;
+width: 70%;
+padding-right: 0mm;}
+ul.prep
+{list-style: none;}
+h1
+{font-weight: normal;
+font-size: 1.5rem;
+color: rgb(10, 27, 58)}
+
+footer {font-size: .6rem;}
