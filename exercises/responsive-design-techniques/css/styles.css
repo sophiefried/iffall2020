@@ -10,13 +10,19 @@ body
 @media (min-width: 640px)
         {h1 {font-size: 2.5rem;}}
 aside
-        {width: 170px;
+        {display: block;
+        width: 170px;
         margin: 10px;}
 ul 
         {display: flex;
         flex-wrap: wrap;
         list-style-type: none;
-        padding-left: 0;}
+        padding-left: 0;
+        margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;}
  #fixed-size-grid-items li 
         {font-size: .8rem;}
 #stretchable-grid-items li
@@ -24,7 +30,8 @@ ul
 @media (min-width: 480px)
         {#stretchable-grid-items li {width: 50%;}}
 @media (min-width: 640px)
-    {#stretchable-grid-items li {width: 25%;}}
+    {#stretchable-grid-items li {width: 25%;}
+        display:flex;}
 #stretchable-grid-items aside
             {margin: 10%;}
 #stretchable-grid-items ul
@@ -32,3 +39,5 @@ ul
         margin-right: -10px;
         margin-top: 1rem;
         margin-bottom: 1rem;}
+li
+        {display: list-item;}
