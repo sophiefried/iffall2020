@@ -1,0 +1,189 @@
+p
+    {font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    word-spacing: -.2rem;
+    line-height: 1.5rem;}
+section
+    {padding-top: 30px;
+    padding-bottom: 30px;}
+    .header-container {
+        position: fixed;
+        width: 100%;
+        height: 35px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+        list-style-type: none;
+        top: 0;
+        left: 0;
+        margin: auto;
+        padding: 4% 2% 2% 2%;
+        background-color: rgb(173, 173, 173);
+        color: rgb(0, 0, 0);
+        font-size: 1.5vw;}
+    .mariecurie 
+        {text-align: right;
+        font-size: 30px;
+        padding-bottom: 0px;
+        margin-top: -7%;
+        padding-right: 20px;
+        padding-top: 20PX;
+        }
+.option
+{display: list-item;
+text-decoration: none;}
+
+
+
+
+
+li:hover
+{font-size: 2vw;}
+
+
+
+body
+{padding-top: 200px;}
+.column-container
+    {width:960px ;
+    margin: auto;
+    padding-top: 20px;}
+h1
+    {font-size: 80px;
+    margin-bottom: 0;
+    font-family: aw-conqueror-didot, serif;
+    }
+h3
+    {text-align: center;
+    font-family: aw-conqueror-didot, serif;
+    color: rgb(131, 0, 0);}
+section
+    {padding-top: 30px;}
+h2{text-align: center;
+    font-family: aw-conqueror-didot, serif;
+    margin-bottom: -10px;
+    font-size: 40px;}
+h3
+    {font-size: 40px;
+    margin-bottom: 33px;}
+.early-years
+    {height: 840px;
+    background-color: rgb(250, 250, 250);
+    color:rgb(0, 0, 0);}
+.youth 
+    {height:400px;
+    width: 300px;
+    margin-left: 2.63rem;
+    margin-bottom: 2rem;
+    object-fit: cover;
+    float: right;}
+.intro-subtitle
+    {height: 380px;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: -20;
+    z-index: 10;
+    box-sizing: border-box;}
+.intro
+{padding-top: 20px;}
+
+.bigpic
+    { width: 100%;}
+.radium
+{width: 200px;}
+        .grid {
+            padding: 0;
+            font-size: 0;}
+    ul {
+            list-style-type: disc;
+            display: block;
+            padding-inline-start: 40px;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            margin-block-start: 1em;
+            margin-block-end: 1em;}
+    .grid li 
+            {display: inline-block;
+            width: 100%;
+            margin-bottom: 25px;}
+    .pic-grid {
+            
+            height: 290px;
+            width: 200px;
+            object-fit: cover;
+            }
+    .left 
+            {margin-right: 2.63rem;
+                object-position: 50% 80%;
+                float: left;
+            margin-bottom: 20px;
+        }
+    .right 
+            {object-position: 50% 30%;
+                float: right;
+                height: 300px;
+                margin-left: 2.63rem;}
+    .picture-title 
+            {font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 0.015rem;
+            line-height: 2.0rem;}
+    .picture-caption
+            {
+        margin-right: 2rem;
+        font-family: prestige-elite-std, monospace;
+         font-weight: 400;
+         font-style: normal;
+        font-size: 17px;
+        word-spacing: -.2rem;
+        line-height: 1.5rem;}
+    .nobel-prize
+        {height: 840px;
+        color:rgb(0, 0, 0);}
+    .npic 
+        {height:400px;
+        width: 300px;
+        margin-right: 2.63rem;
+        margin-bottom: 2rem;
+        object-fit: cover;
+        float: left;}
+        .grid {
+            padding: 0;
+            font-size: 0;}
+        ul {
+            list-style-type: disc;
+            display: block;
+            padding-inline-start: 40px;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            margin-block-start: 1em;
+            margin-block-end: 1em;}
+    
+        .picture-grid {
+            margin-right: 12px;
+            height: 150px;
+            width: 200px;
+            object-fit: cover;
+            float: left;}
+        .lleft 
+            {object-position: 50% 80%;}
+        .rright 
+            {object-position: 50% 30%;}
+        .picture-title 
+            {font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 0.015rem;
+            line-height: 2.0rem;}
+        .picture-caption
+            {font-weight: 600;
+            margin-right: 2rem;
+            font-size: 18px;
+            line-height: 1.6rem;
+            letter-spacing: 0.02rem;}
+    html
+    {text-decoration: none;
+    background-color: rgb(250, 250, 250);}
